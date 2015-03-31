@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Assignment_1</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="quote1">"I'm only a man, just like a shark is only a fish"</string>
+    <string name="quote2">"blablabla2"</string>
+    <string name="quote3">"blablalba3"</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
 </resources>
