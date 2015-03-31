@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Assignment_1</string>
+    <string name="app_name">QuoteMe</string>
     <string name="action_settings" translatable="false">Settings</string>
-    <string name="quote1">"I'm only a man, just like a shark is only a fish"</string>
-    <string name="quote2">"blablabla2"</string>
-    <string name="quote3">"blablalba3"</string>
+    <string name="quote1">\"I\'m only a man, just like a shark is only a fish.\"\n- Anton Blomster</string>
+    <string name="quote2">\"You can\'t be sad when holding a cupcake!\" \n- Unknown</string>
+    <string name="quote3">\"Cool beans...\"\n- Rod Kimble</string>
+    <string name="okButton">New Quote</string>
+    <string name="welcome">Welcome! \n\n To read a new quote simply press \'New Quote\'.</string>
 
 
 </resources>

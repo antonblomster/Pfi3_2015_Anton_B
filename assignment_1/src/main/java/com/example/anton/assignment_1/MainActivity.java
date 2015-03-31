@@ -15,8 +15,6 @@ import java.util.Random;
 public class MainActivity extends ActionBarActivity {
     TextView quoteText;
     Button quoteButton;
-    //private String[] quotes = getResources().getStringArray(R.array.quotes);
-
 
     int[]stringQuotes = {R.string.quote1, R.string.quote2, R.string.quote3};
 
@@ -64,11 +62,13 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        Log.i("onResume", "Activity resumed");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
+        Log.i("onStart", "Activity started");
     }
 
     @Override
