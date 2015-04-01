@@ -5,7 +5,7 @@
     <string name="quote2">\"You can\'t be sad when holding a cupcake!\" \n- Unknown</string>
     <string name="quote3">\"Cool beans...\"\n- Rod Kimble</string>
     <string name="okButton">New Quote</string>
-    <string name="welcome">Welcome! \n\n To read a new quote simply press \'New Quote\'.</string>
+    <string name="welcome">Welcome! \n\n To read a new quote simply press \n\'New Quote\'.</string>
 
 
 </resources>
