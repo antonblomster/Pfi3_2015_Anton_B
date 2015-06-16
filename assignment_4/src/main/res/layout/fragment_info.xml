@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.anton.assignment_4.InfoFragment"
+    android:id="@+id/info" android:background="#000" android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/planetLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/planetName"
+            style="@style/InfoText"
+            android:layout_marginBottom="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planet"/>
+
+        <TextView
+            android:id="@+id/infoRadius"
+            style="@style/CursiveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radius"/>
+
+        <TextView
+            android:id="@+id/infoTemp"
+            style="@style/CursiveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium temp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/infoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mercury"
+        android:layout_gravity="right"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/infoText"
+        style="@style/InfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="planet info"/>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

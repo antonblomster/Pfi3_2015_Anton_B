@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PlanetImages" parent="Theme.AppCompat.Light.DarkActionBar">
+
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">fill_parent</item>
+       <item name="android:textColor">#ffff</item>
+       <item name="android:gravity">bottom</item>
+        <!--
+       <item name="android:scaleType">centerCrop</item>
+       -->
+    </style>
+
+    <style name="InfoText" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="CursiveText" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

@@ -13,6 +13,7 @@ import java.util.Random;
 
 
 public class MainActivity extends ActionBarActivity {
+    /*deklarera dina views*/
     TextView quoteText;
     Button quoteButton;
 
@@ -21,18 +22,19 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); /*ritar användargränsnittet - returnerar XML-filen*/
 
-
+        /*hitta dina views (knapp & text)*/
         quoteText = (TextView) findViewById(R.id.quoteText);
         quoteButton = (Button) findViewById(R.id.quoteButton);
 
+        /*lyssnare - hämtar info från dina views*/
         quoteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int number = new Random().nextInt(3);
                 String randomString = getString(stringQuotes[number]);
-                Log.i("MainActivity", "Button pressed");
+                Log.i("MainActivity", "Button pressed"); /*skriv ut i konsollen när mainactivity startas och när knapp blir tryckt*/
                 quoteText.setText(randomString);
                 //quotes[0]
             }
